@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Calculator App</h1>
+
+  <input type="text" id="display" readonly>
+
+  <button onclick="document.getElementById('display').value += '1'">1</button>
+  <button onclick="document.getElementById('display').value += '2'">2</button>
+  <button onclick="document.getElementById('display').value += '3'">3</button>
+  <button onclick="calculate()">=</button>
+
+  <script src="script.js"></script>
+</body>
+    </html>
